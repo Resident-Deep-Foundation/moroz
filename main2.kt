@@ -3,6 +3,7 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 
+@Suppress("PLUGIN_IS_NOT_ENABLED")
 @Serializable
 data class Valute(
     val ID: String,
@@ -14,6 +15,7 @@ data class Valute(
     val Previous: Double
 )
 
+@Suppress("PLUGIN_IS_NOT_ENABLED")
 @Serializable
 data class DailyJson(
     val Date: String,
